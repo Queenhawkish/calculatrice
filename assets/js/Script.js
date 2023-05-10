@@ -180,9 +180,11 @@ zero.addEventListener("click", function () {
         operation.innerText == multiple.innerText ||
         operation.innerText == minus.innerText ||
         operation.innerText == plus.innerText) {
-        nb2.innerText += zero.innerText
+            if (nb2 != zero.innerText){
+        nb2.innerText += zero.innerText}
     } else {
-        nb1.innerText += zero.innerText
+        if(nb1.innerText !="0"){
+        nb1.innerText += zero.innerText}
     }
 })
 
