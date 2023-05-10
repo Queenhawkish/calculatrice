@@ -71,7 +71,7 @@
     width: 13.3em;
     background-color: cornflowerblue;
 }
-@media screen and (min-width : 200px) and (max-width : 920px) {
+@media screen and (min-width : 0px) and (max-width : 920px) {
     .calcul{
         width: 100%;
     }
